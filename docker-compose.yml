@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nextjs:
+    container_name: nextjs
+    image: ${NEXTJS_DOCKER_REPOSITORY}
+  nginx: 
+    container_name: nginx
+    build: ./nginx
+    ports:
+      - 80:80
