@@ -3,8 +3,10 @@ services:
   nextjs:
     container_name: nextjs
     image: ${NEXTJS_DOCKER_REPOSITORY}
+    restart: always
   nginx: 
     container_name: nginx
     build: ./nginx
+    restart: always
     ports:
       - 80:80

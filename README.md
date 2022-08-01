@@ -20,7 +20,7 @@ e.g.
 NEXTJS_DOCKER_REPOSITORY=itcode/[projectname]:[tagname]
 ```
 
-# Run docker container
+# Run docker containers
 ```
 docker-compose up -d --build --force-recreate
 ```
