@@ -1,6 +1,6 @@
 # NEXTJS Dockerize Boilerplate 
 
-It uses for dockerize nextjs app, quick setup of the server enviroment and deploy app to the server.
+It uses for dockerize nextjs app, quick setup of the server enviroment and deploy an app to the server.
 
 ## Install Docker
 ```
