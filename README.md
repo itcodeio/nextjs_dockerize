@@ -43,6 +43,7 @@ Copy files from example folder to your project folder.
 ```
 cp example/.dockerignore ./[:poject_folder]
 cp example/[:solution]/Dockerfile ./[:poject_folder]
+cp -R nginx/ ./[:poject_folder]
 ```
 
 Then exeecute the following commands
